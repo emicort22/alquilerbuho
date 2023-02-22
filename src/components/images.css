@@ -10,3 +10,30 @@ img{
    padding: 1rem;
    border-radius: 1.4rem;
 }
+
+ /* media queries medium devices*/
+
+
+ @media screen and (max-width:1024px) {
+  header{
+    height:68vh;
+  }
+  
+}
+@media screen and (max-width:600px){
+ 
+img{
+height: 4rem;
+width: 4rem;
+
+
+}
+img:hover{
+  height: 10rem;
+  width: 13rem;
+}.images-container{
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(4rem,4fr));
+ 
+}}
