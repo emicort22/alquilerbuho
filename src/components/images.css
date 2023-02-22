@@ -1,0 +1,12 @@
+.images-container{
+    display: grid;
+  gap:0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem,4fr));
+   
+}
+img{
+    width: 20rem;
+    height: 14rem;
+   padding: 1rem;
+   border-radius: 1.4rem;
+}
