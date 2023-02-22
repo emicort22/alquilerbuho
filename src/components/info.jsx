@@ -16,7 +16,7 @@ const info = () => {
 
  <h5><Ri24HoursFill/>Recepción 24 horas</h5>
 
- <h5> <MdLocationPin/> 281 Río Cuarto, Villa Carlos Paz</h5> 
+ 
     </div>
   )
 }

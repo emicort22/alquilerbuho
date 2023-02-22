@@ -3,8 +3,9 @@ import './App.css';
 import React from "react";
 import Redes from "./components/redes"
 import  Images from "./components/images.jsx"
-import 'react-bootstrap';
+import "react-bootstrap"
 import Header from './components/header.js';
+import  {BsWhatsapp} from "react-icons/bs"
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         rel="noopener noreferrer"
         text= "chatea con nosotros"
        title='chatea con nosotros'>
-        <i className="fa fa-whatsapp whatsapp-icon"></i>
+        <i >  <BsWhatsapp/></i>
       </a>
 
      

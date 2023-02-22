@@ -1,8 +1,9 @@
 import button from "react-bootstrap"
-
+import { MdLocationPin } from "react-icons/md"
 export default function Redes(){
 return(
     <><div className='redes'>
+         <p><h5> <MdLocationPin/> 281 Río Cuarto, Villa Carlos Paz</h5> </p>
         Nuestras redes:
     </div><div>
             <a className="redes2"

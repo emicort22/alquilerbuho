@@ -1,5 +1,6 @@
 import React from 'react'
 import "./images.css"
+import { MdLocationPin } from 'react-icons/md'
 const Images = () => {
   return (
     <div className='images-container'>
@@ -23,7 +24,8 @@ const Images = () => {
            <img src="8.jpg"
           alt="First slide"/> 
 
-        images</div>
+       </div>
+       
   )
 }
 

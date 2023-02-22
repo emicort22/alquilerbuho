@@ -38,25 +38,24 @@ redes2{
 }
 
 .whatsapp_float {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
+  position:absolute;
   background-color: #25d366;
-  color: #FFF;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
+  color: #ffffffca;
+  border-radius: 8rem;
+ padding: 1rem;
+  font-size: 2rem;
   box-shadow: 2px 2px 3px #999;
-  z-index: 100;
- margin-bottom: 3rem;
+  z-index: 80;
+ margin-bottom: 5rem;
  margin-right: 5rem;
+ width: 40px;
+ height: 40px;
+ bottom: 20px;
+ right: 10px;
+ font-size: 22px;
 }
 
-.whatsapp-icon {
-  margin-top: 16px;
-}
+
 
 /* for mobile */
 @media screen and (max-width: 767px) {
@@ -70,5 +69,6 @@ redes2{
       bottom: 20px;
       right: 10px;
       font-size: 22px;
+      margin-right: 0%;
   }
 }
