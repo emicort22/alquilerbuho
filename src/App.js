@@ -5,7 +5,10 @@ import Redes from "./components/redes"
 import  Images from "./components/images.jsx"
 import "react-bootstrap"
 import Header from './components/header.js';
-import  {BsWhatsapp} from "react-icons/bs"
+import  {IoLogoWhatsapp} from "react-icons/io"
+import { Button}  from 'bootstrap';
+import CarouselEx from './components/carousel';
+import { MdLocationPin } from 'react-icons/md';
 
 function App() {
   return (
@@ -16,18 +19,12 @@ function App() {
  <Info/>
   
     <Images/>
-     <a
-        href="https://wa.me/5493541677768"
-        className="whatsapp_float"
-        target="_blank"
-        rel="noopener noreferrer"
-        text= "chatea con nosotros"
-       title='chatea con nosotros'>
-        <i >  <BsWhatsapp/></i>
-      </a>
+  
 
      
       <Redes />
+  
+      <p><h5> <MdLocationPin/> 281 Río Cuarto, Villa Carlos Paz</h5> </p>
       </div>
   
   );

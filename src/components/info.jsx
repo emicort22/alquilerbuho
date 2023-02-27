@@ -1,22 +1,21 @@
 import React from 'react'
-import "./info.css"
+
 import {MdPets,MdOutdoorGrill,MdWifi,MdLocationPin} from"react-icons/md"
 import {AiFillCar} from "react-icons/ai"
 import{ Ri24HoursFill} from"react-icons/ri"
-
+import { IoLogoWhatsapp } from 'react-icons/io'
+import { ListGroupItem } from 'react-bootstrap'
 const info = () => {
   return (
-    <div className='infocontainer'>
-        
-
-<h5><MdPets/>  Aceptamos mascotas </h5>
-<h5><MdOutdoorGrill/> Parrilla</h5>
-<h5><MdWifi/>Wifi gratis</h5>
-<h5> <AiFillCar/> Estacionamiento gratuito</h5>
-
- <h5><Ri24HoursFill/>Recepción 24 horas</h5>
-
+    <div  class="w-auto p-3" >
+         <ListGroupItem> <Ri24HoursFill/>  Recepción 24 horas</ListGroupItem>
  
+         <ListGroupItem><MdPets/>  Aceptamos mascotas </ListGroupItem>
+         <ListGroupItem><MdOutdoorGrill/> Parrilla</ListGroupItem>
+         <ListGroupItem><MdWifi/> Wifi </ListGroupItem>
+         <ListGroupItem> <AiFillCar/> Estacionamiento gratuito</ListGroupItem>
+
+      
     </div>
   )
 }
