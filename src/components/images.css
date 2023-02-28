@@ -33,7 +33,7 @@ img:hover{
   display: grid;
 
   grid-template-columns: repeat(auto-fit, minmax(4rem,4fr));}
- .block{
+ .bl{
     height: 10rem;
     width: 11rem;
   }
