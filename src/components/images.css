@@ -23,8 +23,8 @@ img{
 @media screen and (max-width:600px){
  
 img{
-height: 5rem;
-width: 6rem;
+height: 6rem;
+width: 7rem;
 }
 img:hover{
   height: 10rem;
@@ -32,6 +32,12 @@ img:hover{
 }.images-container{
   display: grid;
 
-  grid-template-columns: repeat(auto-fit, minmax(4rem,4fr));
+  grid-template-columns: repeat(auto-fit, minmax(4rem,4fr));}
+ .block{
+    height: 10rem;
+    width: 11rem;
+  }
  
-}}
+}
+
+

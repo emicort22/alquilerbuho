@@ -1,14 +1,16 @@
 import button, { Button } from "react-bootstrap"
 import { MdLocationPin } from "react-icons/md"
-
+import "./redes.css"
 import {GrMail} from "react-icons/gr"
 import {MdCardTravel, MdTravelExplore} from"react-icons/md"
 import { IoLogoWhatsapp } from "react-icons/io"
 export default function Redes(){
 return(
-    <div class="w-100 p-3">
+    <div className="butons">
       
-    <span>   Comunicate con nosotros! </span>   <Button class="btn btn-primary"
+   
+    
+     <Button className="btn btn-primary"
                 href="https://wa.me/5493541677768"
        
         target="_blank"
@@ -18,7 +20,7 @@ return(
                 </Button>
         <Button class="btn btn-primary"
 
-                href="https://www.booking.com/hotel/ar/el-buho-apartamentos.es-ar.html">  <GrMail/>
+                href="mailto:emiliacortegozo@gmail.com ">  <GrMail/>
                 </Button>
             <Button 
                 href="https://www.booking.com/hotel/ar/el-buho-apartamentos.es-ar.html">
