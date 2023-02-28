@@ -1,0 +1,5 @@
+.infocontainer{
+    display: grid;
+   grid-template-columns: 3fr auto 2fr ;
+
+}
