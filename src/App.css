@@ -12,7 +12,10 @@ p{
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-
+.reseñas{
+  font-weight: bold;
+ font-variant-position: sub;
+}
 
 
 

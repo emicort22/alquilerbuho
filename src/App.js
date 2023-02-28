@@ -24,10 +24,10 @@ function App() {
     <span>   Comunicate con nosotros! </span>  
      
       <Redes />
-<p> Reseñas</p>
+<p className='reseñas'> Reseñas</p>
       <Opinions/>
   
-      <p><h5> <MdLocationPin/> 281 Río Cuarto, Villa Carlos Paz</h5> </p>
+      <p><h5> <MdLocationPin/>  Villa Carlos Paz</h5> <p> Río Cuarto 281</p> </p>
       </div>
   
   );
