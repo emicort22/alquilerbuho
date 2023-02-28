@@ -11,9 +11,10 @@ const info = () => {
          <ListGroupItem> <Ri24HoursFill/>  Recepción 24 horas</ListGroupItem>
  
          <ListGroupItem><MdPets/>  Aceptamos mascotas </ListGroupItem>
+         <ListGroupItem> <AiFillCar/> Estacionamiento gratuito</ListGroupItem>
          <ListGroupItem><MdOutdoorGrill/> Parrilla</ListGroupItem>
          <ListGroupItem><MdWifi/> Wifi </ListGroupItem>
-         <ListGroupItem> <AiFillCar/> Estacionamiento gratuito</ListGroupItem>
+      
 
       
     </div>
