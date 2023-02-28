@@ -29,15 +29,10 @@ width: 7rem;
 img:hover{
   height: 10rem;
   width: 13rem;
-}.images-container{
-  display: grid;
-
-  grid-template-columns: repeat(auto-fit, minmax(4rem,4fr));}
- .bl{
-    height: 10rem;
-    width: 11rem;
-  }
- 
 }
-
+.d-block{
+  height: 18rem;
+  width: 20rem;
+}
+}
 

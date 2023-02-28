@@ -24,7 +24,7 @@ function App() {
     <span>   Comunicate con nosotros! </span>  
      
       <Redes />
-
+<p> Reseñas</p>
       <Opinions/>
   
       <p><h5> <MdLocationPin/> 281 Río Cuarto, Villa Carlos Paz</h5> </p>

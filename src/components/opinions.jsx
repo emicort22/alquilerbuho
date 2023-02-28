@@ -3,9 +3,9 @@ import { Carousel} from 'react-bootstrap';
 import "./images.css"
 const Opinions = () => {
   return (
-  
-    <Carousel class= "carousel carousel-dark slide" >
-      <h2> Reseñas</h2>
+    
+    <Carousel class= "carousel carousel-dark" >
+    
     <Carousel.Item>
       <img 
      class="d-block w-100"
