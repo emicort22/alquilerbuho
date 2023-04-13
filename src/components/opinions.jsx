@@ -8,7 +8,7 @@ const Opinions = () => {
     
     <Carousel.Item>
       <img 
-     class="d-block w-100"
+     class="w-80"
         src="opinion1.png"
         alt="First slide"
        
@@ -20,7 +20,7 @@ const Opinions = () => {
     </Carousel.Item>
     <Carousel.Item>
       <img
-       class="d-block w-100"
+       class=" w-80"
         src="opinion2.png"
         alt="First slide"
        
@@ -29,7 +29,7 @@ const Opinions = () => {
     </Carousel.Item>
     <Carousel.Item>
       <img
-       class="d-block w-100"
+       class=" w-80"
         src="opinion3.png"
         alt="First slide"
        
@@ -38,7 +38,7 @@ const Opinions = () => {
     </Carousel.Item>
     <Carousel.Item>
       <img
-       class="d-block w-100"
+       class="w-80"
         src="opinion4.png"
         alt="First slide"
        
@@ -47,7 +47,7 @@ const Opinions = () => {
     </Carousel.Item>
     <Carousel.Item>
       <img
-   class="d-block w-100"
+   class="w-80"
         src="opinion5.png"
         alt="First slide"
        
@@ -56,7 +56,7 @@ const Opinions = () => {
     </Carousel.Item>
     <Carousel.Item>
       <img
-     class="d-block w-100"
+     class="w-80"
         src="opinion6.png"
         alt="First slide"
        
@@ -65,7 +65,7 @@ const Opinions = () => {
     </Carousel.Item>
     <Carousel.Item>
       <img
-    class="d-block w-100"
+    class="w-80"
         src="opinion7.png"
         alt="First slide"
        
@@ -75,7 +75,7 @@ const Opinions = () => {
 
     <Carousel.Item>
       <img
-       class="d-block w-100"
+       class="w-80"
         src="opinion8.png"
         alt="Second slide"
       />
@@ -84,7 +84,7 @@ const Opinions = () => {
     </Carousel.Item>
     <Carousel.Item>
       <img
-      class="d-block w-100"
+      class="w-80"
         src="opinion9.png"
         alt="Third slide"
       />
@@ -93,7 +93,7 @@ const Opinions = () => {
     </Carousel.Item>
     <Carousel.Item>
       <img
-      class="d-block w-100"
+      class="w-80"
         src="opinion10.png"
         alt="Third slide"
       />
